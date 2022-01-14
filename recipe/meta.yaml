@@ -1,5 +1,5 @@
 {% set name = "pycox" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7b4b56d78468a5c96d507b4c705091e9e4d31ff37f2157165634b9b06ef0ab2b
+  sha256: c209c6b24d9262db7b8edb9a886b1a3bb73c9d6db9fb4559b5fb994e30743d6f
 
 build:
   number: 0
