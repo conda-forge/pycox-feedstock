@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python {{ python_min }}
+    - setuptools
   run:
     - feather-format >=0.4.0
     - h5py >=2.9.0
